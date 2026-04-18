@@ -66,9 +66,19 @@
 @media screen and (max-width: 500px) {
   .title {
     margin-bottom: auto;
+    font-size: 2.5rem;
   }
 
   .button {
     margin-bottom: auto;
+  }
+
+  .filters {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container {
+    padding: 1rem;
   }
 }
